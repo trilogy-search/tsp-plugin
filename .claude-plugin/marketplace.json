@@ -1,0 +1,27 @@
+{
+  "name": "trilogy-search",
+  "owner": {
+    "name": "Kevin Knoepp",
+    "email": "kevin@trilogy-search.com"
+  },
+  "metadata": {
+    "description": "Trilogy Search Claude Code plugins",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "teams-self-chat-windows",
+      "source": "./plugins/teams-self-chat-windows",
+      "description": "Send Claude Code output to Microsoft Teams self-chat on Windows x64.",
+      "category": "communication",
+      "tags": ["teams", "mcp", "microsoft-graph", "windows"]
+    },
+    {
+      "name": "teams-self-chat-macos",
+      "source": "./plugins/teams-self-chat-macos",
+      "description": "Send Claude Code output to Microsoft Teams self-chat on macOS Apple Silicon.",
+      "category": "communication",
+      "tags": ["teams", "mcp", "microsoft-graph", "macos"]
+    }
+  ]
+}
