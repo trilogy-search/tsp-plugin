@@ -8,14 +8,14 @@ Three plugin entries in the marketplace:
 - `tsp-mcp-windows` — local binary, Windows x64.
 - `tsp-mcp-macos` — local binary, macOS Apple Silicon.
 
-`github:trilogy-search/tsp-plugin` is the Claude plugin marketplace/distribution repo. This source repo (`github.com/trilogy-search/tsp-mcp`) is where the manifests point as their `repository`.
+`github.com/trilogy-search/tsp-plugin` is the Claude plugin marketplace/distribution repo (the shorthand `trilogy-search/tsp-plugin` works on `claude plugin marketplace add`). This source repo (`github.com/trilogy-search/tsp-mcp`) is where the manifests point as their `repository`.
 
 ## Install — Hosted (recommended)
 
 Works on any OS. Auth via Microsoft sign-in; no local binary.
 
 ```bash
-claude plugin marketplace add github:trilogy-search/tsp-plugin
+claude plugin marketplace add trilogy-search/tsp-plugin
 claude plugin install tsp-mcp@trilogy-search
 ```
 
@@ -28,14 +28,14 @@ Use this if you need to operate without the hosted service. Otherwise prefer the
 On macOS Apple Silicon:
 
 ```bash
-claude plugin marketplace add github:trilogy-search/tsp-plugin
+claude plugin marketplace add trilogy-search/tsp-plugin
 claude plugin install tsp-mcp-macos@trilogy-search
 ```
 
 On Windows x64:
 
 ```powershell
-claude plugin marketplace add github:trilogy-search/tsp-plugin
+claude plugin marketplace add trilogy-search/tsp-plugin
 claude plugin install tsp-mcp-windows@trilogy-search
 ```
 
