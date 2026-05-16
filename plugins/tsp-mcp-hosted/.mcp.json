@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tsp-mcp": {
+      "type": "http",
+      "url": "https://mcp.trilogy-search.com/mcp"
+    }
+  }
+}

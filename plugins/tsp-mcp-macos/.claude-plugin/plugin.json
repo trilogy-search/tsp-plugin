@@ -1,0 +1,13 @@
+{
+  "name": "tsp-mcp-macos",
+  "description": "TSP MCP server for macOS Apple Silicon.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kevin Knoepp",
+    "email": "kevin@trilogy-search.com"
+  },
+  "repository": "https://github.com/trilogy-search/tsp-mcp",
+  "license": "MIT",
+  "mcpServers": "./.mcp.json",
+  "keywords": ["tsp", "mcp", "macos"]
+}

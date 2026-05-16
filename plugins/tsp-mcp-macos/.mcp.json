@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tsp-mcp-local": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/tsp-mcp-darwin-arm64",
+      "env": {
+        "TSP_MCP_CLIENT_ID": "9b3be98a-0b85-4d28-98ce-d01f34eff244",
+        "TSP_MCP_TENANT_ID": "598653af-c4fe-48d4-a204-17f699c6304d"
+      }
+    }
+  }
+}

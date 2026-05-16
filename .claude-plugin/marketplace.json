@@ -10,18 +10,25 @@
   },
   "plugins": [
     {
-      "name": "teams-self-chat-windows",
-      "source": "./plugins/teams-self-chat-windows",
-      "description": "Send Claude Code output to Microsoft Teams self-chat on Windows x64.",
-      "category": "communication",
-      "tags": ["teams", "mcp", "microsoft-graph", "windows"]
+      "name": "tsp-mcp",
+      "source": "./plugins/tsp-mcp-hosted",
+      "description": "TSP MCP — hosted (any OS, no binary).",
+      "category": "productivity",
+      "tags": ["tsp", "mcp", "hosted"]
     },
     {
-      "name": "teams-self-chat-macos",
-      "source": "./plugins/teams-self-chat-macos",
-      "description": "Send Claude Code output to Microsoft Teams self-chat on macOS Apple Silicon.",
-      "category": "communication",
-      "tags": ["teams", "mcp", "microsoft-graph", "macos"]
+      "name": "tsp-mcp-windows",
+      "source": "./plugins/tsp-mcp-windows",
+      "description": "TSP MCP server for Windows x64.",
+      "category": "productivity",
+      "tags": ["tsp", "mcp", "windows"]
+    },
+    {
+      "name": "tsp-mcp-macos",
+      "source": "./plugins/tsp-mcp-macos",
+      "description": "TSP MCP server for macOS Apple Silicon.",
+      "category": "productivity",
+      "tags": ["tsp", "mcp", "macos"]
     }
   ]
 }
